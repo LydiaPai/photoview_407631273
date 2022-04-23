@@ -37,23 +37,54 @@ class MyHomePage extends StatelessWidget {
       mainAxisSpacing: 10,
       crossAxisCount: 2,
       children: <Widget>[
-
-        Image.asset("assets/image_1.png"),
-
-        Image.asset("assets/image_2.png"),
-
-        Image.asset("assets/image_3.png"),
-
-        Image.asset("assets/image_4.png"),
-
-        Image.asset("assets/image_5.png"),
-
-        Image.asset("assets/image_6.png"),
-
-        Image.asset("assets/image_7.png"),
-
-        Image.asset("assets/image_8.png"),
-
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_1.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_2.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_3.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_4.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_5.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_6.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_7.png'),
+        ),
+        InkWell(
+          onTap: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>SecondPage()));
+          },
+          child: Image.asset('assets/image_8.png'),
+        ),
         Container(
           child: btn,
           alignment: Alignment.topCenter,
